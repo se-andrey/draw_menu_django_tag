@@ -1,0 +1,17 @@
+{% extends 'menus/base.html' %}
+
+{% load draw_menu_tags %}
+
+{% block content %}
+    <ul>
+        <li><a href="/">Главная</a>
+        </li>
+    </ul>
+
+    {% draw_menu 'main_menu' %}
+
+{% endblock %}
+
+{% block footer %}
+    {% draw_menu 'footer_menu' %}
+{% endblock %}

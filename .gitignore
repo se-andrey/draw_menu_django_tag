@@ -1,0 +1,7 @@
+.env
+.idea/
+**/__pycache__
+Lib
+Scripts
+db.sqlite3
+pyvenv.cfg

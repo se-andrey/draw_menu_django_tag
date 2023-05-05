@@ -1,0 +1,6 @@
+[flake8]
+exclude =
+    migrations
+    lib
+    scripts
+max-line-length = 120
